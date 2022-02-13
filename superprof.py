@@ -80,13 +80,4 @@ while True:
                	break
 print(bio_data)
       '''      
-### Passos
-### Utilizar o requests pra fazer uma request a url: https://www.superprof.com/a/search/?adress=United%20States&matiere=All%20subjects&page=1
-### Guardar o valor currentpage
-### Percorrer o array de pessoes no json
-### Para cada pessoa se tiver a string "harvard" no "title" escrever ela num arquivo de texto (lowercased) 
-### Para garantir, tambem acessar a pagina da pessoa pelo beautiful soup campo "url" da resposta em json
-### No beautiful soup achar o paragrafo que contem a bio da pessoa
-### Se o paragrafo conter harvard, escrever a pessoa no arquivo de texto e ir para a proxima
-### Checar se esta na ultima pessoa do array, caso estiver incrementar o currentPage e repetir os passo
-### Checar se esta na ultima pagina, caso estiver encerrar o script
+
